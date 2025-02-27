@@ -52,7 +52,7 @@ function App() {
 
     fetchWeather();
     return () => clearInterval(interval);
-  }, []);
+  }, [backgrounds.length]); // Added backgrounds.length as a dependency
 
   return (
     <div className="App">
