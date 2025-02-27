@@ -6,11 +6,11 @@ import Forecast from "./components/Forecast";
 import Error from "./components/Error";
 import "./App.css";
 
-import backgroundImage1 from "./assets/3610831-uhd_3840_2160_30fps.mp4";
-import backgroundImage2 from "./assets/12510986_3840_2160_60fps.mp4";
-import backgroundVideo3 from "./assets/14094022-uhd_3840_2160_30fps.mp4";
-import backgroundVideo4 from "./assets/4664992-uhd_3840_2160_30fps.mp4";
-import backgroundVideo5 from "./assets/856572-uhd_3840_2160_25fps.mp4";
+import backgroundImage1 from "./assets/3610831-uhd-3840-2160-30fps.mp4";
+import backgroundImage2 from "./assets/12510986-3840-2160-60fps.mp4";
+import backgroundVideo3 from "./assets/14094022-uhd-3840-2160-30fps-Tri.mp4";
+import backgroundVideo4 from "./assets/4664992-uhd-3840-2160-30fps-Trim.mp4";
+import backgroundVideo5 from "./assets/856572-uhd-3840-2160-25fps-Trim.mp4";
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
